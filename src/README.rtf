@@ -1,0 +1,48 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf600
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww17580\viewh13500\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf0 To run simulations, execute scripts that begin with \'91protocol\'92, all other files are helper functions with their usage explained in details in the project report.\
+\
+- for 3-agent cases, run 
+\b protocol_movingObs_3.m\
+
+\b0 - for 10-agent cases, run 
+\b protocol_movingObs_10.m\
+
+\b0 - for 20-agent cases, run 
+\b protocol_movingObs_20.m / protocol_noObs_20.m\
+\
+
+\b0 To run simulations with 3-agent and 10-agent without any obstacles (ClassB), please refer to documentations in scripts for instructions.\
+\
+Note: parameters 
+\b de
+\b0  and 
+\b dc
+\b0  in the main execution scripts can be adjusted to avoid crashing when running different setups (initial/goal locations as well as number of agents). However, you also need to change 
+\b de
+\b0  and 
+\b dc
+\b0  in the following scripts to match in order for the program to work properly.\
+- 
+\b de
+\b0  in 
+\b calc_uik.m\
+
+\b0 - 
+\b dc
+\b0  in
+\b  calc_uio.m\
+
+\b0 - 
+\b dr
+\b0  (=de) and 
+\b dc 
+\b0 in 
+\b sigma_generator.m\
+\
+}
